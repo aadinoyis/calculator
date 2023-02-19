@@ -26,7 +26,7 @@ equal.addEventListener("click", () => {
     if (Number.isInteger(solution)) {
       input.value = solution;
     } else {
-      input.value = solution.toFixed(2);
+      input.value = solution.toFixed(4);
     }
   } catch (err) {
     //If user has entered invalid input
